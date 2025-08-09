@@ -1,0 +1,20 @@
+# Sperm Dataset Configuration for YOLOv8
+
+path: ./data
+train: train
+val: val
+test: test
+
+nc: 3
+names: 
+  0: normal_sperm
+  1: abnormal_sperm  
+  2: debris
+
+total_images: 1000
+train_images: 700
+val_images: 200
+test_images: 100
+
+img_size: 640
+channels: 3
